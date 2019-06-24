@@ -1,7 +1,8 @@
-RUN pip3 install setuptools 
-RUN pip3 install  jupyter_contrib_nbextensions \
+pip3 install setuptools 
+pip3 install  jupyter_contrib_nbextensions \
     jupyter_nbextensions_configurator
-RUN jupyter contrib nbextension install --user && \
+
+jupyter contrib nbextension install --user && \
     jupyter nbextensions_configurator enable --user
 
 
