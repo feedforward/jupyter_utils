@@ -13,6 +13,4 @@ echo "alias jp='f(){jupyter notebook --no-browser --ip 0.0.0.0 --port \$1 --Note
 mkdir ~/.jupyter/custom
 mv ~/jupyter_utils/custom.js  ~/.jupyter/custom/.
 mv ~/jupyter_utils/notebook.json ~/.jupyter/nbconfig/notebook.json
-
-
-mv ~/jupyter_utils/startup_*.py ~/.ipython/profile_default/startup/.
+mv ~/jupyter_utils/tree.json ~/.jupyter/nbconfig/tree.json
