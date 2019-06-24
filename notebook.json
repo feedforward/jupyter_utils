@@ -8,10 +8,6 @@
     "command": {
       "bind": {
         "r-a-b": "jupyter-notebook:run-all-cells-above",
-        "r,e,s": "jupyter-notebook:restart-kernel-and-clear-output",
-        "e, l": "jupyter-notebook:run-all-cells",
-        "e, a": "jupyter-notebook:run-all-cells-above",
-        "e, b": "jupyter-notebook:run-all-cells-below",
         "cmd-f": "jupyter-notebook:find-and-replace",
         "cmd-f,f": "jupyter-notebook:find-and-replace",
         "cmd-f, f": "jupyter-notebook:find-and-replace",
@@ -33,7 +29,14 @@
         "l,i,n": "jupyter-notebook:toggle-cell-line-numbers",
         "s,h,o,r,t": "jupyter-notebook:show-keyboard-shortcuts",
         "d,e,l": "jupyter-notebook:delete-cell",
-        "u,n,d,o": "jupyter-notebook:undo-cell-deletion"
+        "u,n,d,o": "jupyter-notebook:undo-cell-deletion",
+        "e,b,enter": "jupyter-notebook:run-all-cells-below",
+        "cmd+down, a": "jupyter-notebook:move-cell-down",
+        "cmd-down": "jupyter-notebook:move-cell-down",
+        "cmd-up": "jupyter-notebook:move-cell-up",
+        "cmd-enter": "jupyter-notebook:run-all-cells",
+        "alt-enter": "jupyter-notebook:run-all-cells-above",
+        "c,l,e,a,r": "jupyter-notebook:clear-cell-output"
       },
       "unbind": [
         "r",
@@ -51,7 +54,11 @@
         "l",
         "h",
         "d,d",
-        "z"
+        "z",
+        "space",
+        "shift-space",
+        "alt-enter",
+        "shift-enter"
       ]
     }
   }
