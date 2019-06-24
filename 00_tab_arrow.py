@@ -15,16 +15,3 @@ IPython.tab_as_tab_everywhere = function(use_tabs) {
 	};
 
 IPython.tab_as_tab_everywhere()
-
-
-os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   # see issue #152
-os.environ["CUDA_VISIBLE_DEVICES"]="0"
-
-
-%env CUDA_DEVICE_ORDER=PCI_BUS_ID
-%env CUDA_VISIBLE_DEVICES=0
-
-
-from tensorflow.python.client import device_lib
-print(device_lib.list_local_devices())
-
