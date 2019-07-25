@@ -8,9 +8,6 @@
     "command": {
       "bind": {
         "r-a-b": "jupyter-notebook:run-all-cells-above",
-        "cmd-f": "jupyter-notebook:find-and-replace",
-        "cmd-f,f": "jupyter-notebook:find-and-replace",
-        "cmd-f, f": "jupyter-notebook:find-and-replace",
         "i,a": "jupyter-notebook:insert-cell-above",
         "i,b": "jupyter-notebook:insert-cell-below",
         "f,y": "jupyter-notebook:change-cell-to-code",
