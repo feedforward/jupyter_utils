@@ -28,7 +28,6 @@
         "d,e,l": "jupyter-notebook:delete-cell",
         "u,n,d,o": "jupyter-notebook:undo-cell-deletion",
         "e,b,enter": "jupyter-notebook:run-all-cells-below",
-        "cmd+down, a": "jupyter-notebook:move-cell-down",
         "cmd-down": "jupyter-notebook:move-cell-down",
         "cmd-up": "jupyter-notebook:move-cell-up",
         "cmd-enter": "jupyter-notebook:run-all-cells",
