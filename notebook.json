@@ -1,17 +1,31 @@
 {
-  "load_extensions": {
-    "nbextensions_configurator/config_menu/main": true,
-    "contrib_nbextensions_help_item/main": true,
-    "codefolding/main": true
-  },
   "keys": {
     "command": {
+      "unbind": [
+        "r",
+        "s",
+        "a",
+        "b",
+        "y",
+        "m",
+        "k",
+        "j",
+        "x",
+        "c",
+        "p",
+        "o",
+        "l",
+        "h",
+        "d,d",
+        "z",
+        "space",
+        "shift-space",
+        "alt-enter",
+        "shift-enter"],
       "bind": {
-        "r-a-b": "jupyter-notebook:run-all-cells-above",
         "i,a": "jupyter-notebook:insert-cell-above",
         "i,b": "jupyter-notebook:insert-cell-below",
         "f,y": "jupyter-notebook:change-cell-to-code",
-        "f, c,o,d,e": "jupyter-notebook:change-cell-to-code",
         "f, m, a, r, k": "jupyter-notebook:change-cell-to-markdown",
         "f, r, a, w": "jupyter-notebook:change-cell-to-raw",
         "r,c,l": "jupyter-notebook:restart-kernel-and-clear-output",
@@ -33,29 +47,15 @@
         "cmd-enter": "jupyter-notebook:run-all-cells",
         "alt-enter": "jupyter-notebook:run-all-cells-above",
         "c,l,e,a,r": "jupyter-notebook:clear-cell-output"
-      },
-      "unbind": [
-        "r",
-        "s",
-        "a",
-        "b",
-        "y",
-        "m",
-        "k",
-        "j",
-        "x",
-        "c",
-        "p",
-        "o",
-        "l",
-        "h",
-        "d,d",
-        "z",
-        "space",
-        "shift-space",
-        "alt-enter",
-        "shift-enter"
-      ]
+      }
     }
-  }
+  },
+
+
+"Cell": {
+        "cm_config": {
+                "lineNumbers": false,
+                "lineWrapping": true
+                        }
+        }
 }
