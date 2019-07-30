@@ -1,7 +1,12 @@
 {
   "keys": {
     "command": {
+      "bind":{
+	"cmd-enter": "jupyter-notebook:run-all-cells",
+	"r,c,l": "jupyter-notebook:restart-kernel-and-clear-output"
+	},
       "unbind": [
+	"f",
         "r",
         "s",
         "a",
@@ -25,11 +30,11 @@
       "bind": {
         "i,a": "jupyter-notebook:insert-cell-above",
         "i,b": "jupyter-notebook:insert-cell-below",
-        "f,y": "jupyter-notebook:change-cell-to-code",
-        "f, m, a, r, k": "jupyter-notebook:change-cell-to-markdown",
-        "f, r, a, w": "jupyter-notebook:change-cell-to-raw",
-        "r,c,l": "jupyter-notebook:restart-kernel-and-clear-output",
-        "r, r, a": "jupyter-notebook:restart-kernel-and-run-all-cells",
+        "f,c,o,d": "jupyter-notebook:change-cell-to-code",
+        "f,m,a,r,k": "jupyter-notebook:change-cell-to-markdown",
+        "f,r,a,w": "jupyter-notebook:change-cell-to-raw",
+        "s,c,l": "jupyter-notebook:restart-kernel-and-clear-output",
+        "s, r, a": "jupyter-notebook:restart-kernel-and-run-all-cells",
         "e,d,i,t,s,h": "jupyter-notebook:edit-command-mode-keyboard-shortcuts",
         "c,u,t": "jupyter-notebook:cut-cell",
         "p,a,l,e": "jupyter-notebook:show-command-palette",
@@ -41,7 +46,6 @@
         "s,h,o,r,t": "jupyter-notebook:show-keyboard-shortcuts",
         "d,e,l": "jupyter-notebook:delete-cell",
         "u,n,d,o": "jupyter-notebook:undo-cell-deletion",
-        "e,b,enter": "jupyter-notebook:run-all-cells-below",
         "cmd-down": "jupyter-notebook:move-cell-down",
         "cmd-up": "jupyter-notebook:move-cell-up",
         "cmd-enter": "jupyter-notebook:run-all-cells",
