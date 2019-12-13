@@ -15,7 +15,7 @@ if __name__ == "__main__":
 	py_full_path = nb_full_path.replace('.ipynb', '.py') 
 	subprocess.run(["rm","-f",py_full_path])
 	time.sleep(1)
-	with open('jb_nb_convert.py', 'w') as f:
+	with open('.jb_nb_convert.py', 'w') as f:
 		f.write("c.NbConvertApp.notebooks = [\""+ nb_name + "\"" + "]")
  
-	!jupyter nbconvert --config jb_nb_convert.py --to python
+	!jupyter nbconvert --config .jb_nb_convert.py --to python
