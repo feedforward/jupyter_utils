@@ -10,6 +10,7 @@ IPython.notebook.kernel.execute('nb_name = "' + IPython.notebook.notebook_name +
 
 
 if __name__ == "__main__":
+	import subprocess, time
 	nb_full_path = os.path.join(os.getcwd(), nb_name)
 	py_full_path = nb_full_path.replace('.ipynb', '.py') 
 	subprocess.run(["rm","-f",py_full_path])
